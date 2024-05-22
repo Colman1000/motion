@@ -14,8 +14,6 @@ class IMG {
 }
 
 class MapAsset {
-  static const path1 = 'assets/img/map.jpeg';
-  static const path2 = 'assets/img/map2.jpeg';
   static const png = 'assets/img/map2.png';
 }
 
