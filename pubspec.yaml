@@ -1,7 +1,7 @@
 name: motion
 description: "A new Flutter project."
 publish_to: 'none'
-version: 0.1.0
+version: 1.0.0
 
 environment:
   sdk: '>=3.4.0 <4.0.0'
@@ -13,7 +13,6 @@ dependencies:
   flutter_animate: ^4.5.0
   animations: ^2.0.11
   iconly: ^1.0.1
-  animated_digit: ^3.2.3
   odometer: ^3.0.0
 
 dev_dependencies:
