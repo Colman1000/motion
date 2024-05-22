@@ -1,0 +1,43 @@
+name: motion
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_animate: ^4.5.0
+  animations: ^2.0.11
+  iconly: ^1.0.1
+  animated_digit: ^3.2.3
+  odometer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/room1.jpeg
+    - assets/img/room2.jpeg
+    - assets/img/room3.jpeg
+    - assets/img/room4.jpeg
+    - assets/img/room5.jpeg
+    - assets/img/map.jpeg
+    - assets/img/map2.jpeg
+    - assets/img/map2.png
+    - assets/img/avatar.png
+
+  fonts:
+    - family: Euclid
+      fonts:
+        - asset: 'fonts/euclid/Euclid Circular A Regular.ttf'
+        - asset: 'fonts/euclid/Euclid Circular A Bold.ttf'
+          weight: 700
